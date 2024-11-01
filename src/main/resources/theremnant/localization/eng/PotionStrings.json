@@ -1,0 +1,36 @@
+{
+  "${modID}:PotionID": {
+    "NAME": "Some Kind of Potion",
+    "DESCRIPTIONS": [
+      "Little",
+      " pieces ",
+      "that get put together",
+      " into a description.",
+      " Exactly how depends on the potion, and you can set it up however you want."
+    ]
+  },
+  "${modID}:ElectrolytePotion": {
+    "NAME": "Electrolyte Potion",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " #ySoul."
+    ]
+  },
+  "${modID}:EnergyDrink": {
+    "NAME": "Energy Drink",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " #yStrength and #b",
+      " #yDexterity."
+    ]
+  },
+  "${modID}:DebilitatingBrew": {
+    "NAME": "Debilitating Brew",
+    "DESCRIPTIONS": [
+      "Apply #b",
+      " #yShatter, #b",
+      " #yVulnerable, and #b",
+      " #yWeak."
+    ]
+  }
+}

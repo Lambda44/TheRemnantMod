@@ -1,0 +1,342 @@
+{
+  "${modID}:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "${modID}:Soulbolt": {
+    "NAME": "Soulbolt",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! ${modID}:Soul."
+  },
+  "${modID}:SoulShield": {
+    "NAME": "Soul Shield",
+    "DESCRIPTION": "${modID}:Soulcast: Gain !B! Block."
+  },
+  "${modID}:AtPeace": {
+    "NAME": "At Peace",
+    "DESCRIPTION": "Gain !M! ${modID}:Bones. NL Draw 1 card. NL ${modID}:Soulcast: Apply 1 Weak to ALL enemies.",
+    "UPGRADE_DESCRIPTION": "Gain !M! ${modID}:Bones. NL Draw 2 cards. NL ${modID}:Soulcast: Apply 2 Weak to ALL enemies."
+  },
+  "${modID}:Break": {
+    "NAME": "Break",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! ${modID}:Shatter. NL Next turn, apply !M! ${modID}:Shatter."
+  },
+  "${modID}:BurningSoul": {
+    "NAME": "Burning Soul",
+    "DESCRIPTION": "${modID}:Sacrifice 3. NL Deal !D! damage to ALL enemies."
+  },
+  "${modID}:HitAndRun": {
+    "NAME": "Hit and Run",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! card. NL ${modID}:Soulcast: Repeat the above effects once."
+  },
+  "${modID}:BoneBarrier": {
+    "NAME": "Bone Barrier",
+    "DESCRIPTION": "Gain !B! Block. NL ${modID}:Soulcast: Gain !B! Block again."
+  },
+  "${modID}:Collection": {
+    "NAME": "Collection",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! ${modID}:Soul."
+  },
+  "${modID}:SoulSiphon": {
+    "NAME": "Soul Siphon",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has ${modID}:Shatter, apply !M! Vulnerable. NL Apply !M! ${modID}:Shatter."
+  },
+  "${modID}:Absorb": {
+    "NAME": "Absorb",
+    "DESCRIPTION": "Gain 4 ${modID}:Soul. NL Next turn, gain !M! ${modID}:Soul."
+  },
+  "${modID}:JackOfSpades": {
+    "NAME": "Jack of Spades",
+    "DESCRIPTION": "Gain !B! Block. NL Deal !D! damage. NL ${modID}:Soulcast: Apply !M! ${modID}:Shatter. NL Gain !M! ${modID}:Soul."
+  },
+  "${modID}:Splinter": {
+    "NAME": "Splinter",
+    "DESCRIPTION": "${modID}:Sacrifice 3. NL ALL enemies lose !M! Strength. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "${modID}:Sacrifice 3. NL ALL enemies lose !M! Strength. NL Next turn, repeat the above effects once. NL Exhaust."
+  },
+  "${modID}:AHundredCuts": {
+    "NAME": "A Hundred Cuts",
+    "DESCRIPTION": "Deal !D! damage to a random enemy 4 times. NL Apply !M! ${modID}:Shatter to ALL enemies."
+  },
+  "${modID}:Fortify": {
+    "NAME": "Fortify",
+    "DESCRIPTION": "${modID}:Sacrifice 3. NL Gain !B! Block."
+  },
+  "${modID}:CrossChop": {
+    "NAME": "Cross Chop",
+    "DESCRIPTION": "${modID}:Sacrifice 4. NL Deal !D! damage. NL Apply !M! Weak. NL Apply !M! Vulnerable."
+  },
+  "${modID}:MakeshiftRitual": {
+    "NAME": "Makeshift Ritual",
+    "DESCRIPTION": "Gain !M! ${modID}:Bones and !M! ${modID}:Soul. NL Gain 1 Strength."
+  },
+  "${modID}:DuckAndCover": {
+    "NAME": "Duck and Cover",
+    "DESCRIPTION": "Gain !B! Block. NL Draw 1 card. NL ${modID}:Soulcast: Draw 1 more card."
+  },
+  "${modID}:Bulwark": {
+    "NAME": "Bulwark",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! ${modID}:Bones."
+  },
+  "${modID}:Undermine": {
+    "NAME": "Undermine",
+    "DESCRIPTION": "Deal !D! damage twice. NL Gain !M! ${modID}:Bones."
+  },
+  "${modID}:RattlingBones": {
+    "NAME": "Rattling Bones",
+    "DESCRIPTION": "Scry !M!. NL Gain !M! ${modID}:Bones."
+  },
+  "${modID}:MirrorShard": {
+    "NAME": "Mirror Shard",
+    "DESCRIPTION": "Deal !D! damage. NL ${modID}:Soulcast: Put a card from your discard pile into your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Put a card from your discard pile into your hand. NL Exhaust."
+  },
+  "${modID}:SprayAndPray": {
+    "NAME": "Spray and Pray",
+    "DESCRIPTION": "Apply 1 ${modID}:Shatter to a random enemy !M! times. NL If you ${modID}:Stun an enemy this turn, gain 2 Dexterity. NL Exhaust."
+  },
+  "${modID}:Shatterwave": {
+    "NAME": "Shatterwave",
+    "DESCRIPTION": "Apply !M! Weak and !M! ${modID}:Shatter to ALL enemies. NL Exhaust."
+  },
+  "${modID}:Reconfigure": {
+    "NAME": "Reconfigure",
+    "DESCRIPTION": "${modID}:Sacrifice !M!. NL Gain 2 Strength. NL Gain 2 Dexterity."
+  },
+  "${modID}:Warhammer": {
+    "NAME": "Warhammer",
+    "DESCRIPTION": "Gain !B! Block. NL Deal !D! damage. NL Apply !M! ${modID}:Shatter."
+  },
+  "${modID}:Prepare": {
+    "NAME": "Prepare",
+    "DESCRIPTION": "Gain !B! Block this turn and next turn. NL ${modID}:Soulcast: Gain !B! more Block next turn. NL Gain !M! ${modID}:Soul."
+  },
+  "${modID}:Unease": {
+    "NAME": "Unease",
+    "DESCRIPTION": "Apply !M! ${modID}:Shatter. NL Draw !M! cards. NL Next turn, draw 1 additional card."
+  },
+  "${modID}:Unburden": {
+    "NAME": "Unburden",
+    "DESCRIPTION": "${modID}:Sacrifice 4. NL Gain !M! ${modID}:Soul."
+  },
+  "${modID}:DelayedPower": {
+    "NAME": "Delayed Power",
+    "DESCRIPTION": "Ethereal. NL Next turn, gain !M! Strength."
+  },
+  "${modID}:ForgottenSoul": {
+    "NAME": "Forgotten Soul",
+    "DESCRIPTION": "Retain. NL Gain !M! ${modID}:Soul. NL Gain !M! ${modID}:Bones. NL Exhaust."
+  },
+  "${modID}:SoulStrike": {
+    "NAME": "Soul Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Add a *Forgotten *Soul to your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add a *Forgotten *Soul+ to your hand."
+  },
+  "${modID}:PowerDrive": {
+    "NAME": "Power Drive",
+    "DESCRIPTION": "${modID}:Sacrifice 4. NL Deal !D! damage 3 times. NL Gain !M! ${modID}:Soul."
+  },
+  "${modID}:Thunderwave": {
+    "NAME": "Thunderwave",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL ${modID}:Soulcast: Apply !M! ${modID}:Shatter and !M! Vulnerable to ALL enemies."
+  },
+  "${modID}:Momentum": {
+    "NAME": "Momentum",
+    "DESCRIPTION": "At the start of your turn, gain !M! ${modID}:Soul.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, gain !M! ${modID}:Soul."
+  },
+  "${modID}:Innervate": {
+    "NAME": "Innervate",
+    "DESCRIPTION": "Whenever you gain Block, gain !M! ${modID}:Bone."
+  },
+  "${modID}:Crush": {
+    "NAME": "Crush",
+    "DESCRIPTION": "${modID}:Sacrifice !M!. NL Apply 4 Vulnerable and 4 Weak to ALL enemies."
+  },
+  "${modID}:Spark": {
+    "NAME": "Spark",
+    "DESCRIPTION": "Exhaust a card. NL Deal !D! damage. NL Gain !M! ${modID}:Soul."
+  },
+  "${modID}:SmokeCloud": {
+    "NAME": "Smoke Cloud",
+    "DESCRIPTION": "Apply !M! Weak and !M! Vulnerable to ALL enemies. NL ${modID}:Soulcast: Gain !B! Block.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Apply !M! Weak and !M! Vulnerable to ALL enemies. NL ${modID}:Soulcast: Gain !B! Block."
+  },
+  "${modID}:Adaptability": {
+    "NAME": "Adaptability",
+    "DESCRIPTION": "If the enemy intends to attack, gain !B! Block. NL Otherwise, draw !M! cards."
+  },
+  "${modID}:Stockpile": {
+    "NAME": "Stockpile",
+    "DESCRIPTION": "At the end of your turn, gain !M! ${modID}:Bones."
+  },
+  "${modID}:Clobber": {
+    "NAME": "Clobber",
+    "DESCRIPTION": "${modID}:Soulcast: Remove the enemy's Block. NL Deal !D! damage twice. NL Gain !M! ${modID}:Soul."
+  },
+  "${modID}:Soulblast": {
+    "NAME": "Soulblast",
+    "DESCRIPTION": "Deal damage equal to your ${modID}:Soul. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [" NL (Deal !D! damage.)"]
+  },
+  "${modID}:QueenOfSpades": {
+    "NAME": "Queen of Spades",
+    "DESCRIPTION": "Deal !D! damage and apply 2 ${modID}:Shatter to ALL enemies. NL Gain !M! ${modID}:Soul and !M! ${modID}:Bones."
+  },
+  "${modID}:Stabilize": {
+    "NAME": "Stabilize",
+    "DESCRIPTION": "Whenever you gain ${modID}:Soul, gain !M! Block."
+  },
+  "${modID}:Restoration": {
+    "NAME": "Restoration",
+    "DESCRIPTION": "Gain Block equal to the enemy's ${modID}:Shatter.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Gain Block equal to the enemy's ${modID}:Shatter."
+  },
+  "${modID}:BoneBlockade": {
+    "NAME": "Bone Blockade",
+    "DESCRIPTION": "Whenever you ${modID}:Sacrifice, gain !M! Block."
+  },
+  "${modID}:Fracture": {
+    "NAME": "Fracture",
+    "DESCRIPTION": "Apply 2 ${modID}:Shatter. NL Enemy does not halve their ${modID}:Shatter on their next turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Apply 2 ${modID}:Shatter. NL Enemy does not halve their ${modID}:Shatter on their next 2 turns. NL Exhaust."
+  },
+  "${modID}:Rally": {
+    "NAME": "Rally",
+    "DESCRIPTION": "Innate. NL Gain !M! ${modID}:Bones. NL Draw 3 cards. NL Exhaust."
+  },
+  "${modID}:Permafrost": {
+    "NAME": "Permafrost",
+    "DESCRIPTION": "Gain !B! Block. NL This turn, you cannot lose ${modID}:Soul. NL Exhaust."
+  },
+  "${modID}:Sprint": {
+    "NAME": "Sprint",
+    "DESCRIPTION": "${modID}:Sacrifice 5. NL Draw !M! cards. NL Next turn, draw 2 additional cards."
+  },
+  "${modID}:Kindling": {
+    "NAME": "Kindling",
+    "DESCRIPTION": "Exhaust a card. NL Gain !B! Block. NL Gain !M! ${modID}:Bones."
+  },
+  "${modID}:Exploitation": {
+    "NAME": "Exploitation",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has ${modID}:Shatter, apply !M! ${modID}:Shatter and gain [E]."
+  },
+  "${modID}:Manipulation": {
+    "NAME": "Manipulation",
+    "DESCRIPTION": "At the end of your turn, gain Block equal to the highest amount of ${modID}:Shatter on a single enemy."
+  },
+  "${modID}:Scapegoat": {
+    "NAME": "Scapegoat",
+    "DESCRIPTION": "If you have negative ${modID}:Bones, set your ${modID}:Bones to 0. NL Your next !M! ${modID}:Sacrifices do not consume ${modID}:Bones."
+  },
+  "${modID}:BoneStrike": {
+    "NAME": "Bone Strike",
+    "DESCRIPTION": "Deal damage equal to your ${modID}:Bones. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal damage equal to your ${modID}:Bones +!M!. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [" NL (Deal !D! damage.)"]
+  },
+  "${modID}:Rampart": {
+    "NAME": "Rampart",
+    "DESCRIPTION": "Gain !B! Block. NL Apply !M! ${modID}:Shatter to ALL enemies."
+  },
+  "${modID}:Focus": {
+    "NAME": "Focus",
+    "DESCRIPTION": "Gain !M! ${modID}:Soul.",
+    "EXTENDED_DESCRIPTION": ["Transcendence",
+      " NL Can be Upgraded up to !${modID}:upgrades! times.",
+      " Becomes *Transcendence on the final *Upgrade.",
+      "${modID}:Soulcast: Choose a card in your draw pile and play it after this card. NL "]
+  },
+  "${modID}:TaintedHarvest": {
+    "NAME": "Tainted Harvest",
+    "DESCRIPTION": "${modID}:Sacrifice 4. NL Gain !B! Block. NL Heal !M! HP. NL Exhaust."
+  },
+  "${modID}:PsychoCut": {
+    "NAME": "Psycho Cut",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! ${modID}:Shatter. NL Exhaust."
+  },
+  "${modID}:SoulExodus": {
+    "NAME": "Soul Exodus",
+    "DESCRIPTION": "Spend 20 ${modID}:Soul to deal !D! damage to ALL enemies."
+  },
+  "${modID}:Purify": {
+    "NAME": "Purify",
+    "DESCRIPTION": "Gain !M! Artifact. NL ${modID}:Soulcast: Gain !M! Artifact again. NL Exhaust."
+  },
+  "${modID}:AdeptRitualist": {
+    "NAME": "Adept Ritualist",
+    "DESCRIPTION": "At the end of your turn, deal damage to ALL enemies equal to half your ${modID}:Bones."
+  },
+  "${modID}:Annihilation": {
+    "NAME": "Annihilation",
+    "DESCRIPTION": "${modID}:Sacrifice 5. NL Deal !D! damage to ALL enemies !M! times. NL Next turn, ${modID}:Sacrifice 5."
+  },
+  "${modID}:Flow": {
+    "NAME": "Flow",
+    "DESCRIPTION": "Ethereal. NL Double your ${modID}:Soul. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Double your ${modID}:Soul. NL Exhaust."
+  },
+  "${modID}:SoulPolarize": {
+    "NAME": "Soul Polarize",
+    "DESCRIPTION": "${modID}:Soul no longer decreases when a card is played.",
+    "UPGRADE_DESCRIPTION": "${modID}:Soul no longer decreases when a card is played. NL Gain 1 ${modID}:Soul when you play a card."
+  },
+  "${modID}:SoulChannel": {
+    "NAME": "Soul Channel",
+    "DESCRIPTION": "Spend !M! ${modID}:Soul to gain !B! Block and 2 Strength."
+  },
+  "${modID}:KingOfSpades": {
+    "NAME": "King of Spades",
+    "DESCRIPTION": "Gain !M! [E]. NL Gain !M! ${modID}:Bones and !M! ${modID}:Soul. NL Apply !M! ${modID}:Shatter to ALL enemies. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Gain !M! [E]. NL Gain !M! ${modID}:Bones and !M! ${modID}:Soul. NL Apply !M! ${modID}:Shatter to ALL enemies. NL Exhaust."
+  },
+  "${modID}:OmniscientForm": {
+    "NAME": "Omniscient Form",
+    "DESCRIPTION": "Ethereal. NL The first card you play each turn costs 0.",
+    "UPGRADE_DESCRIPTION": "The first card you play each turn costs 0."
+  },
+  "${modID}:Gorge": {
+    "NAME": "Gorge",
+    "DESCRIPTION": "At the start of your turn, ${modID}:Sacrifice 1 and gain !M! Block."
+  },
+  "${modID}:Earthquake": {
+    "NAME": "Earthquake",
+    "DESCRIPTION": "Ethereal. NL At the start of your turn, apply !M! ${modID}:Shatter to ALL enemies.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, apply !M! ${modID}:Shatter to ALL enemies."
+  },
+  "${modID}:FemurBreaker": {
+    "NAME": "Femur Breaker",
+    "DESCRIPTION": "Deal !D! damage. NL Gain ${modID}:Bones equal to the unblocked damage dealt."
+  },
+  "${modID}:Scavenge": {
+    "NAME": "Scavenge",
+    "DESCRIPTION": "Deal !D! damage. NL Enemy loses !M! ${modID}:Resistance. NL Exhaust."
+  },
+  "${modID}:SoulRecovery": {
+    "NAME": "Soul Recovery",
+    "DESCRIPTION": "At the end of combat, gain !M! Max HP."
+  },
+  "${modID}:Soulcalibur": {
+    "NAME": "Soulcalibur",
+    "DESCRIPTION": "Deal !D! damage X times. NL Gain X ${modID}:Soul.",
+    "EXTENDED_DESCRIPTION": ["Deal !D! damage !M! times. NL Gain !M! ${modID}:Soul.",
+    "Deal !D! damage. NL Gain !M! ${modID}:Soul."]
+  },
+  "${modID}:UnearthedArcana": {
+    "NAME": "Unearthed Arcana",
+    "DESCRIPTION": "Add a *Soulcalibur to your hand. NL Gain [E]. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add a *Soulcalibur with X+1 to your hand. NL Gain [E]. NL Exhaust."
+  },
+  "${modID}:SoulSap": {
+    "NAME": "Soul Sap",
+    "DESCRIPTION": "Unplayable. NL At the end of your turn, take !M! damage and gain !M! ${modID}:Constricted."
+  },
+  "${modID}:Hexbreaker": {
+    "NAME": "Hexbreaker",
+    "DESCRIPTION": "Retain. NL Remove ALL your debuffs except Confused. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Gain !M! Dexterity. NL Remove ALL your debuffs except Confused. NL Exhaust."
+  }
+}

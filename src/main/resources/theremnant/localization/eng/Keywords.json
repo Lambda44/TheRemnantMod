@@ -1,0 +1,95 @@
+[
+  {
+    "PROPER_NAME": "This is displayed in the tooltip.",
+    "NAMES": [
+      "these",
+      "are",
+      "detected",
+      "in",
+      "the",
+      "text"
+    ],
+    "DESCRIPTION": "This is displayed in the tooltip. Note, spaces are not allowed in NAMES. Also, they should be entirely lowercase. For multi-word keywords, see the next one."
+  },
+  {
+    "PROPER_NAME": "Multiword Keyword",
+    "NAMES": [
+      "Multiword Keyword",
+      "multiword_keyword",
+      "multiword_keywords"
+    ],
+    "DESCRIPTION": "Make sure the first element in the NAMES is the same as your PROPER_NAME. The rest should use _ to replace spaces and be entirely lowercase. In card text, you'll use the underscore versions."
+  },
+  {
+    "ID": "soul",
+    "PROPER_NAME": "Soul",
+    "NAMES": [
+      "soul"
+    ],
+    "DESCRIPTION": "At the end of your turn, deal #bX damage to a random enemy. Lose #b1 #ySoul when you play a card."
+  },
+  {
+    "PROPER_NAME": "Soulcast",
+    "NAMES": [
+      "soulcast"
+    ],
+    "DESCRIPTION": "Trigger the specified effect as long as you have at least #b1 #ySoul."
+  },
+  {
+    "ID": "shatter",
+    "PROPER_NAME": "Shatter",
+    "NAMES": [
+      "shatter"
+    ],
+    "DESCRIPTION": "If the enemy has #b10 or more #yShatter, remove it, #yStun them, and apply #b2 #yResistance. Enemy loses half of their #yShatter at the start of their turn."
+  },
+  {
+    "PROPER_NAME": "Sacrifice",
+    "NAMES": [
+      "sacrifice",
+      "sacrifices"
+    ],
+    "DESCRIPTION": "Lose #bX #yBones. This effect bypasses #yArtifact. Negative #yBones are not a debuff and reduce your #rMax #rHP at the end of combat."
+  },
+  {
+    "PROPER_NAME": "Bones",
+    "NAMES": [
+      "bones",
+      "bone"
+    ],
+    "DESCRIPTION": "#yBones are spent on #ySacrifice costs. If you have negative #yBones at the end of combat, lose that much #rMax #rHP."
+  },
+  {
+    "PROPER_NAME": "Constricted",
+    "NAMES": [
+      "constricted"
+    ],
+    "DESCRIPTION": "At the end of your turn, take #bX damage."
+  },
+  {
+    "PROPER_NAME": "Stun",
+    "NAMES": [
+      "stun",
+      "Stun",
+      "stunned",
+      "Stunned"
+    ],
+    "DESCRIPTION": "Stunned enemies skip their turn."
+  },
+  {
+    "ID": "resistance",
+    "PROPER_NAME": "Resistance",
+    "NAMES": [
+      "resistance"
+    ],
+    "DESCRIPTION": "This enemy requires #bX more #yShatter in order to be #yStunned."
+  },
+  {
+    "ID": "scapegoat",
+    "PROPER_NAME": "Scapegoat",
+    "NAMES": [
+      "scapegoat"
+    ],
+    "DESCRIPTION": "Your next #ySacrifice does not consume #yBones."
+  }
+]

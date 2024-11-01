@@ -1,0 +1,86 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "Good Relic",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. [E] is an energy icon."
+    ]
+  },
+  "${modID}:Invigoration": {
+    "NAME": "Invigoration",
+    "FLAVOR": "The essence of what drives you forward. Who rests atop the Spire this time?",
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain [E] and #b3 #y${modID}:Soul."
+    ]
+  },
+  "${modID}:BoneLordsBoon": {
+    "NAME": "Bone Lord's Boon",
+    "FLAVOR": "The Bone Lord has smiled upon you. He demands a Sacrifice.",
+    "DESCRIPTIONS": [
+      "Start each combat with #b5 #y${modID}:Bones."
+    ]
+  },
+  "${modID}:BearArms": {
+    "NAME": "Bear Arms",
+    "FLAVOR": "You recall something about a right to these...?",
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain #b1 #yStrength and #b1 #yDexterity."
+    ]
+  },
+  "${modID}:Mitigation": {
+    "NAME": "Mitigation",
+    "FLAVOR": "Being defensive can have its benefits.",
+    "DESCRIPTIONS": [
+      "Every time you play #b3 #ySkills in a single turn, gain #b2 #y${modID}:Bones and #b2 #y${modID}:Soul."
+    ]
+  },
+  "${modID}:RagingSpirit": {
+    "NAME": "Raging Spirit",
+    "FLAVOR": "The fire within shall burn brighter than the fire around you.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, if you have #b8 or more #y${modID}:Soul, gain #b3 #yStrength."
+    ]
+  },
+  "${modID}:DNAMutator": {
+    "NAME": "DNA Mutator",
+    "FLAVOR": "Your enemies are now less resistant. Exploit this.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, ALL enemies lose #b2 #y${modID}:Resistance."
+    ]
+  },
+  "${modID}:FracturedDiamond": {
+    "NAME": "Fractured Diamond",
+    "FLAVOR": "Imperfect but strong, just like you.",
+    "DESCRIPTIONS": [
+      "Whenever you lose HP in combat, gain #b2 #y${modID}:Bones."
+    ]
+  },
+  "${modID}:CorrosiveAura": {
+    "NAME": "Corrosive Aura",
+    "FLAVOR": "If your enemies fear you, have you become the real monster?",
+    "DESCRIPTIONS": [
+      "At the start of each combat, remove #yArtifact from ALL enemies."
+    ]
+  },
+  "${modID}:Vivification": {
+    "NAME": "Vivification",
+    "FLAVOR": "A renewed spirit takes hold once more. The new Spire's host won't know what hit them.",
+    "DESCRIPTIONS": [
+      "Replaces #gInvigoration. At the start of each combat, gain [E] [E] . At the start of your turn, gain #b2 #y${modID}:Soul."
+    ]
+  },
+  "${modID}:ShepherdsSoul": {
+    "NAME": "Shepherd's Soul",
+    "FLAVOR": "The soul of a kind shepherd. How did this end up in the Spire?",
+    "DESCRIPTIONS": [
+      "At the start of your turn, if you have #b6 or more #y${modID}:Soul, gain #b1 #y${modID}:Scapegoat."
+    ]
+  },
+  "${modID}:Magnitude9": {
+    "NAME": "Magnitude 9",
+    "FLAVOR": "A near perfect earthquake.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, #y${modID}:Stun ALL enemies, but gain #b2 #yVulnerable."
+    ]
+  }
+}

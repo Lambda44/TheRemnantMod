@@ -1,0 +1,272 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "Ultimate Power",
+    "DESCRIPTIONS": [
+      "You are Very Cool and Strong."
+    ]
+  },
+  "${modID}:Soul": {
+    "NAME": "Soul",
+    "DESCRIPTIONS": [
+      "At the end of your turn, ",
+      "#rreduce #rthis #rby #rhalf, then ",
+      "deal #b",
+      " damage to a random enemy. ",
+      "Lose #b1 #ySoul when you play a card.",
+      "#gGain #b",
+      " #ySoul #gwhen #gyou #gplay #ga #gcard."
+    ]
+  },
+  "${modID}:Shatter": {
+    "NAME": "Shatter",
+    "DESCRIPTIONS": [
+      "This enemy has #b",
+      " / #b",
+      " #yShatter needed to be #yStunned."
+    ]
+  },
+  "${modID}:Resistance": {
+    "NAME": "Resistance",
+    "DESCRIPTIONS": [
+      "This enemy requires #b",
+      " more #yShatter to be #yStunned.",
+      " less #yShatter to be #yStunned."
+    ]
+  },
+  "${modID}:Bones": {
+    "NAME": "Bones",
+    "DESCRIPTIONS": [
+      "#yBones are spent on #ySacrifice costs.",
+      " #rAt #rthe #rend #rof #rcombat, #rlose #b",
+      " #rMax #rHP.",
+      " #rAt #rthe #rend #rof #ryour #rturn, #rtake #b",
+      " #rdamage, #rthen #rreset #ryour #yBones #rto #b0."
+    ]
+  },
+  "${modID}:ShatterNextTurn": {
+    "NAME": "Shatter Next Turn",
+    "DESCRIPTIONS": [
+      "At the end of its turn, enemy gains #b",
+      " #yShatter."
+    ]
+  },
+  "${modID}:SoulNextTurn": {
+    "NAME": "Soul Next Turn",
+    "DESCRIPTIONS": [
+      "Next turn, gain #b",
+      " #ySoul."
+    ]
+  },
+  "${modID}:Splinter": {
+    "NAME": "Splinter",
+    "DESCRIPTIONS": [
+      "At the start of your next turn, ",
+      "At the start of your next #b",
+      " turns, ",
+      "#ySacrifice #b3 and ALL enemies lose #b1 #yStrength."
+    ]
+  },
+  "${modID}:StrengthNextTurn": {
+    "NAME": "Strength Next Turn",
+    "DESCRIPTIONS": [
+      "Next turn, gain #b",
+      " #yStrength."
+    ]
+  },
+  "${modID}:Momentum": {
+    "NAME": "Momentum",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b",
+      " #ySoul."
+    ]
+  },
+  "${modID}:Innervate": {
+    "NAME": "Innervate",
+    "DESCRIPTIONS": [
+      "Whenever you gain #yBlock, gain #b",
+      " #yBone.",
+      " #yBones."
+    ]
+  },
+  "${modID}:Stockpile": {
+    "NAME": "Stockpile",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #b",
+      " #yBones."
+    ]
+  },
+  "${modID}:Stabilize": {
+    "NAME": "Stabilize",
+    "DESCRIPTIONS": [
+      "Whenever you gain #ySoul, gain #b",
+      " #yBlock."
+    ]
+  },
+  "${modID}:BoneBlockade": {
+    "NAME": "Bone Blockade",
+    "DESCRIPTIONS": [
+      "Whenever you #ySacrifice, gain #b",
+      " #yBlock."
+    ]
+  },
+  "${modID}:Fracture": {
+    "NAME": "Fracture",
+    "DESCRIPTIONS": [
+      "This enemy's #yShatter will not be halved at the start of their next turn.",
+      "This enemy's #yShatter will not be halved at the start of their next #b",
+      " turns."
+    ]
+  },
+  "${modID}:Permafrost": {
+    "NAME": "Permafrost",
+    "DESCRIPTIONS": [
+      "This turn, you cannot lose #ySoul.",
+      "For the next #b",
+      " turns, you cannot lose #ySoul."
+    ]
+  },
+  "${modID}:Manipulation": {
+    "NAME": "Manipulation",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #yBlock equal to the highest amount of #yShatter on a single enemy",
+      " #b",
+      " times.",
+      "."
+    ]
+  },
+  "${modID}:Scapegoat": {
+    "NAME": "Scapegoat",
+    "DESCRIPTIONS": [
+      "Your next #ySacrifice does not consume #yBones.",
+      "Your next #b",
+      " #ySacrifices do not consume #yBones."
+    ]
+  },
+  "${modID}:AdeptRitualist": {
+    "NAME": "Adept Ritualist",
+    "DESCRIPTIONS": [
+      "At the end of your turn, deal damage to ALL enemies equal to half your #yBones",
+      " #b",
+      " times.",
+      "."
+    ]
+  },
+  "${modID}:SacrificeNextTurn": {
+    "NAME": "Sacrifice Next Turn",
+    "DESCRIPTIONS": [
+      "Next turn, #ySacrifice #b",
+      "."
+    ]
+  },
+  "${modID}:SoulPolarize": {
+    "NAME": "Soul Polarize",
+    "DESCRIPTIONS": [
+      "#ySoul no longer decreases when a card is played.",
+      " Gain #b",
+      " #ySoul when you play a card."
+    ]
+  },
+  "${modID}:Omniscient": {
+    "NAME": "Omniscient",
+    "DESCRIPTIONS": [
+      "The next card you play costs #b0.",
+      "The next #b",
+      " cards you play cost #b0."
+    ]
+  },
+  "${modID}:OmniscientForm": {
+    "NAME": "Omniscient Form",
+    "DESCRIPTIONS": [
+      "The first card you play each turn costs #b0.",
+      "The first #b",
+      " cards you play each turn cost #b0."
+    ]
+  },
+  "${modID}:Gorge": {
+    "NAME": "Gorge",
+    "DESCRIPTIONS": [
+      "At the start of your turn, #ySacrifice #b1 and gain #b",
+      " #yBlock."
+    ]
+  },
+  "${modID}:Earthquake": {
+    "NAME": "Earthquake",
+    "DESCRIPTIONS": [
+      "At the start of your turn, apply #b",
+      " #yShatter to ALL enemies."
+    ]
+  },
+  "${modID}:SoulRecovery": {
+    "NAME": "Soul Recovery",
+    "DESCRIPTIONS": [
+      "At the end of combat, gain #b",
+      " Max HP."
+    ]
+  },
+  "${modID}:StunDex": {
+    "NAME": "Tactical Stun",
+    "DESCRIPTIONS": [
+      "If you #yStun an enemy this turn, gain #b",
+      " #yDexterity, then remove this power."
+    ]
+  },
+  "${modID}:SoulSiphon": {
+    "NAME": "Soul Siphon",
+    "DESCRIPTIONS": [
+      "Whenever you play a card this turn, gain #b",
+      " #yBone.",
+      " #yBones."
+    ]
+  },
+  "${modID}:VoidFog": {
+    "NAME": "Void Fog",
+    "DESCRIPTIONS": [
+      "#rNext #rturn, this enemy becomes #rEnraged.",
+      "In #b",
+      " turns, this enemy becomes #rEnraged."
+    ]
+  },
+  "${modID}:Resilience": {
+    "NAME": "Resilience",
+    "DESCRIPTIONS": [
+      "Once per turn, whenever this enemy gains #yResistance, it gains #b",
+      " more."
+    ]
+  },
+  "${modID}:Hexed": {
+    "NAME": "Hexed",
+    "DESCRIPTIONS": [
+      "The next time ",
+      "The next #b",
+      " times ",
+      "this enemy's #yStance is depleted, add a #yHexbreaker to your hand."
+    ]
+  },
+  "${modID}:Stance": {
+    "NAME": "Stance",
+    "DESCRIPTIONS": [
+      "#gStance #gdepleted! ",
+      "If this enemy takes #b",
+      " more damage this turn, it loses #b100 HP. ",
+      "#yStance resets at the start of their turn, unless they are #yStunned."
+    ]
+  },
+  "${modID}:FreezeSoul": {
+    "NAME": "Soul Decay",
+    "DESCRIPTIONS": [
+      "This turn, ",
+      "For the next #b",
+      " turns, ",
+      "before #ySoul activates, #rlose #rhalf #rof #ryour #ySoul."
+    ]
+  },
+  "${modID}:FreezeBones": {
+    "NAME": "Bone Decay",
+    "DESCRIPTIONS": [
+      "At the end of this turn, ",
+      "At the end of the next #b",
+      " turns, ",
+      "if you have negative #yBones, #rtake #rthat #rmuch #rdamage. Reset #yBones to #b0 if this activates."
+    ]
+  }
+}

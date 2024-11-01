@@ -1,0 +1,13 @@
+{
+  "${modID}:Remnant": {
+    "NAMES": [
+      "The Remnant",
+      "the Remnant"
+    ],
+    "TEXT": [
+      "An undead warrior, resurrected in the familiar yet unknown Spire. NL Uses his Soul to augment his attacks.",
+      " NL You ready your Soul...",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~undead~ ~one,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  }
+}
