@@ -38,7 +38,7 @@
     "NAME": "Raging Spirit",
     "FLAVOR": "The fire within shall burn brighter than the fire around you.",
     "DESCRIPTIONS": [
-      "At the start of your turn, if you have #b8 or more #y${modID}:Soul, gain #b3 #yStrength."
+      "At the start of your turn, if you have #b8 or more #y${modID}:Soul, gain #b2 #yStrength."
     ]
   },
   "${modID}:DNAMutator": {

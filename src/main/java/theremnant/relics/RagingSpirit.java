@@ -27,11 +27,11 @@ public class RagingSpirit extends BaseRelic{
         this.counter = -1;
     }
 
-    public void atTurnStart() { //at turn start, if you have 8+ Soul, gain 3 STR
-        if (AbstractDungeon.player.hasPower(SoulPower.POWER_ID) && AbstractDungeon.player.getPower(SoulPower.POWER_ID).amount > 8) {
+    public void atTurnStart() { //at turn start, if you have 8+ Soul, gain 2 STR
+        if (AbstractDungeon.player.hasPower(SoulPower.POWER_ID) && AbstractDungeon.player.getPower(SoulPower.POWER_ID).amount >= 8) {
             this.flash();
             this.addToBot(new RelicAboveCreatureAction(AbstractDungeon.player, this));
-            this.addToBot(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new StrengthPower(AbstractDungeon.player, 3), 3));
+            this.addToBot(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new StrengthPower(AbstractDungeon.player, 2), 2));
         }
     }
 
