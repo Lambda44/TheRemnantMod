@@ -35,10 +35,10 @@ public class Sprint extends BaseCard {
 
     //These will be used in the constructor. Technically you can just use the values directly,
     //but constants at the top of the file are easy to adjust.
-    private static final int MAGIC = 4;
+    private static final int MAGIC = 3;
     private static final int UPG_MAGIC = 1;
 
-    private static final int sacCost = 5;
+    private static final int sacCost = 6;
 
     public Sprint() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor. use true as a 2nd argument to change description

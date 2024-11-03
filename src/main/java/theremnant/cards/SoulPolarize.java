@@ -46,6 +46,7 @@ public class SoulPolarize extends BaseCard {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor. use true as a 2nd argument to change description
 
         setMagic(MAGIC, UPG_MAGIC);
+        setEthereal(true);
     }
 
     @Override

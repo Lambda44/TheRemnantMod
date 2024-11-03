@@ -22,22 +22,16 @@ public class ManipulationPower extends BasePower implements CloneablePowerInterf
     }
 
     public void atEndOfTurnPreEndTurnCards(boolean isPlayer) {
-        int amt = 0;
+        this.flash();
         Iterator var1 = AbstractDungeon.getCurrRoom().monsters.monsters.iterator();
 
         while(var1.hasNext()) {
             AbstractMonster mo = (AbstractMonster)var1.next();
             if (mo.hasPower(ShatterPower.POWER_ID)) {
-                if (mo.getPower(ShatterPower.POWER_ID).amount > amt) {
-                    amt = mo.getPower(ShatterPower.POWER_ID).amount;
+                int amt = mo.getPower(ShatterPower.POWER_ID).amount;
+                for (int i = 0; i < amount; ++i) {
+                    this.addToBot(new GainBlockAction(this.owner, this.owner, amt));
                 }
-            }
-        }
-
-        if (amt > 0) {
-            this.flash();
-            for (int i = 0; i < amount; ++i) {
-                this.addToBot(new GainBlockAction(this.owner, this.owner, amt));
             }
         }
     }

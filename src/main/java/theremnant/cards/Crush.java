@@ -42,26 +42,26 @@ public class Crush extends BaseCard {
 
     //These will be used in the constructor. Technically you can just use the values directly,
     //but constants at the top of the file are easy to adjust.
+    private static final int MAGIC = 2;
+    private static final int UPG_MAGIC = 1;
 
-    //this.magicNumber IS THE SACRIFICE COST
-    private static final int MAGIC = 5;
-    private static final int UPG_MAGIC = -2;
+    private static final int sacCost = 4;
 
     public Crush() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor. use true as a 2nd argument to change description
 
         setMagic(MAGIC, UPG_MAGIC);
+        setExhaust(true);
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new SacrificeAction(this.magicNumber));
+        addToBot(new SacrificeAction(sacCost));
 
         Iterator var3 = AbstractDungeon.getCurrRoom().monsters.monsters.iterator();
         while(var3.hasNext()) {
             AbstractMonster mo = (AbstractMonster)var3.next();
-            addToBot(new ApplyPowerAction(mo, p, new VulnerablePower(mo, 4, false), 4, true, AbstractGameAction.AttackEffect.NONE));
-            addToBot(new ApplyPowerAction(mo, p, new WeakPower(mo, 4, false), 4, true, AbstractGameAction.AttackEffect.NONE));
+            this.addToBot(new ApplyPowerAction(mo, p, new StrengthPower(mo, -this.magicNumber), -this.magicNumber, true));
         }
     }
 

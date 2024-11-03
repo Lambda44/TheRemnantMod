@@ -54,12 +54,11 @@
   },
   "${modID}:Splinter": {
     "NAME": "Splinter",
-    "DESCRIPTION": "${modID}:Sacrifice 3. NL ALL enemies lose !M! Strength. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "${modID}:Sacrifice 3. NL ALL enemies lose !M! Strength. NL Next turn, repeat the above effects once. NL Exhaust."
+    "DESCRIPTION": "${modID}:Sacrifice !M!. NL Apply 3 Vulnerable and 3 Weak to ALL enemies. NL Exhaust."
   },
   "${modID}:AHundredCuts": {
     "NAME": "A Hundred Cuts",
-    "DESCRIPTION": "Deal !D! damage to a random enemy 4 times. NL Apply !M! ${modID}:Shatter to ALL enemies."
+    "DESCRIPTION": "Deal !D! damage to a random enemy 3 times. NL Apply !M! ${modID}:Shatter to ALL enemies."
   },
   "${modID}:Fortify": {
     "NAME": "Fortify",
@@ -150,11 +149,12 @@
   },
   "${modID}:Innervate": {
     "NAME": "Innervate",
-    "DESCRIPTION": "Whenever you gain Block, gain !M! ${modID}:Bone."
+    "DESCRIPTION": "Ethereal. NL Whenever you gain Block, gain !M! ${modID}:Bone.",
+    "UPGRADE_DESCRIPTION": "Whenever you gain Block, gain !M! ${modID}:Bone."
   },
   "${modID}:Crush": {
     "NAME": "Crush",
-    "DESCRIPTION": "${modID}:Sacrifice !M!. NL Apply 4 Vulnerable and 4 Weak to ALL enemies."
+    "DESCRIPTION": "${modID}:Sacrifice 4. NL ALL enemies lose !M! Strength. NL Exhaust."
   },
   "${modID}:Spark": {
     "NAME": "Spark",
@@ -214,7 +214,7 @@
   },
   "${modID}:Sprint": {
     "NAME": "Sprint",
-    "DESCRIPTION": "${modID}:Sacrifice 5. NL Draw !M! cards. NL Next turn, draw 2 additional cards."
+    "DESCRIPTION": "${modID}:Sacrifice 6. NL Draw !M! cards. NL Next turn, draw 2 additional cards."
   },
   "${modID}:Kindling": {
     "NAME": "Kindling",
@@ -226,7 +226,7 @@
   },
   "${modID}:Manipulation": {
     "NAME": "Manipulation",
-    "DESCRIPTION": "At the end of your turn, gain Block equal to the highest amount of ${modID}:Shatter on a single enemy."
+    "DESCRIPTION": "At the end of your turn, gain Block equal to the amount of ${modID}:Shatter on ALL enemies."
   },
   "${modID}:Scapegoat": {
     "NAME": "Scapegoat",
@@ -281,8 +281,8 @@
   },
   "${modID}:SoulPolarize": {
     "NAME": "Soul Polarize",
-    "DESCRIPTION": "${modID}:Soul no longer decreases when a card is played.",
-    "UPGRADE_DESCRIPTION": "${modID}:Soul no longer decreases when a card is played. NL Gain 1 ${modID}:Soul when you play a card."
+    "DESCRIPTION": "Ethereal. NL ${modID}:Soul no longer decreases when a card is played.",
+    "UPGRADE_DESCRIPTION": "Ethereal. NL ${modID}:Soul no longer decreases when a card is played. NL Gain 1 ${modID}:Soul when you play a card."
   },
   "${modID}:SoulChannel": {
     "NAME": "Soul Channel",

@@ -66,7 +66,7 @@
     "NAME": "Vivification",
     "FLAVOR": "A renewed spirit takes hold once more. The new Spire's host won't know what hit them.",
     "DESCRIPTIONS": [
-      "Replaces #gInvigoration. At the start of each combat, gain [E] [E] . At the start of your turn, gain #b2 #y${modID}:Soul."
+      "Replaces #gInvigoration. At the start of every odd turn, gain [E] . At the start of your turn, gain #b2 #y${modID}:Soul."
     ]
   },
   "${modID}:ShepherdsSoul": {

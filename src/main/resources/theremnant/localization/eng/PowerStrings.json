@@ -128,7 +128,7 @@
   "${modID}:Manipulation": {
     "NAME": "Manipulation",
     "DESCRIPTIONS": [
-      "At the end of your turn, gain #yBlock equal to the highest amount of #yShatter on a single enemy",
+      "At the end of your turn, gain #yBlock equal to the amount of #yShatter on ALL enemies",
       " #b",
       " times.",
       "."
@@ -185,7 +185,8 @@
   "${modID}:Gorge": {
     "NAME": "Gorge",
     "DESCRIPTIONS": [
-      "At the start of your turn, #ySacrifice #b1 and gain #b",
+      "At the start of your turn, #ySacrifice #b",
+      " and gain #b",
       " #yBlock."
     ]
   },

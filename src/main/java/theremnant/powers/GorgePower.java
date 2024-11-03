@@ -17,23 +17,25 @@ public class GorgePower extends BasePower implements CloneablePowerInterface {
     public static final String POWER_ID = makeID("Gorge");
     private static final PowerType TYPE = PowerType.BUFF;
     private static final boolean TURN_BASED = false;
+    private int sacCost;
 
-    public GorgePower(AbstractCreature owner, int amount) {
+    public GorgePower(AbstractCreature owner, int sacCost, int amount) {
         super(POWER_ID, TYPE, TURN_BASED, owner, amount);
+        this.sacCost = sacCost;
     }
 
     public void atStartOfTurn() {
         this.flash();
-        this.addToBot(new SacrificeAction(1));
+        this.addToBot(new SacrificeAction(sacCost));
         this.addToBot(new GainBlockAction(this.owner, this.owner, this.amount));
     }
 
     public void updateDescription() {
-        this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
+        this.description = DESCRIPTIONS[0] + this.sacCost + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2];
     }
 
     @Override
     public AbstractPower makeCopy() {
-        return new GorgePower(owner, amount);
+        return new GorgePower(owner, sacCost, amount);
     }
 }

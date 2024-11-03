@@ -27,14 +27,16 @@ public class Vivification extends BaseRelic{
         this.counter = -1;
     }
 
-    public void atBattleStart() { //gain 2 energy and draw 2 extra cards on combat start
-        this.flash();
-        this.addToBot(new RelicAboveCreatureAction(AbstractDungeon.player, this));
-        this.addToBot(new GainEnergyAction(2));
+    public void atBattleStart() {
+        this.counter = 0;
     }
 
-    public void atTurnStart() { //gain 2 Soul per turn
+    public void atTurnStart() { //gain 2 Soul per turn. gain 1 energy every odd turn.
         this.flash();
+        ++this.counter;
+        if (this.counter % 2 == 1) {
+            this.addToBot(new GainEnergyAction(1));
+        }
         this.addToBot(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new SoulPower(AbstractDungeon.player, 2), 2));
     }
 

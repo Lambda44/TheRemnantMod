@@ -46,7 +46,7 @@ public class AHundredCuts extends BaseCard {
 
     //These will be used in the constructor. Technically you can just use the values directly,
     //but constants at the top of the file are easy to adjust.
-    private static final int DAMAGE = 2;
+    private static final int DAMAGE = 3;
     private static final int UPG_DAMAGE = 1;
 
     private static final int MAGIC = 2;
@@ -61,7 +61,7 @@ public class AHundredCuts extends BaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        for(int i = 0; i < 4; ++i) {
+        for(int i = 0; i < 3; ++i) {
             AbstractMonster target = AbstractDungeon.getMonsters().getRandomMonster((AbstractMonster)null, true, AbstractDungeon.cardRandomRng);
             addToBot(new DamageAction(target, new DamageInfo(p, damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
         }
